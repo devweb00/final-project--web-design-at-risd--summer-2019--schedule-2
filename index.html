@@ -1,12 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-   <title>DON’T FORGET TO UPDATE THIS TITLE</title>
-   <link href="css/reset.css" rel="stylesheet"><!-- DO NOT EDIT THIS LINE. -->
-   <link href="css/style.css" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+  <link href="css/reset.css" rel="stylesheet">
+   <style>
+      @font-face {
+         font-family: 'Kombi';
+         src: url('../Kombi-Regular.woff');
+         font-weight: normal;
+         font-style: normal;
+      }
+      :root{
+         --fg-col:#f6f6f6;
+         --bg-col:#222;
+      }
+      html {
+         background: var(--bg-col);
+         scroll-behavior: smooth;
+         transition: all 0.4s;
+      }
+
+      .navbar{
+         position: fixed;
+         left:0;
+         bottom: 0;
+         width: 100%;
+         background-color: var(--bg-col);
+         box-shadow: 0 -25px 15px var(--bg-col);
+         transition: all 0.4s;
+      }
+
+      header{
+          font-family: 'Kombi';
+          text-align: right;
+          margin-right: 40px;
+          text-transform: uppercase;
+          color: var(--fg-col);
+      }
+      header h1{
+         font-size: 12vh;
+         line-height: 9vh;
+         display: block;
+      }
+      nav.main-nav{
+         background: var(--fg-col);
+         color: var(--bg-col);
+         text-align: right;
+         height: 10vh;
+         width: 100%
+      }
+      nav.main-nav li{
+         font-family: 'Kombi';
+         display: inline-block;
+         font-size: 5vh;
+         line-height: 10vh;
+         text-transform: lowercase;
+         margin: 0 3vw;
+         cursor: pointer;
+      }
+
+      nav.sub-nav{
+         position: fixed;
+         right:70px;
+         bottom: 25vh;
+         text-align: right;
+         font-family: Kombi;
+         font-size: 1.8rem;
+         line-height: 2.2rem;
+      }
+      nav.sub-nav li{
+         transition: all 0.2s
+      }
+      nav.sub-nav li:hover{
+         opacity: 0.8;
+         cursor: pointer;
+      }
+      nav.sub-nav a{
+         padding:0 10px 3px;
+         color: var(--fg-col);
+         text-decoration: none;
+      }
+      nav.sub-nav li.active{
+         background-color: var(--fg-col);
+      }
+      nav.sub-nav li.active a{
+
+         color: var(--bg-col);
+         pointer-events: none;
+      }
+      main{
+         width: 60%;
+         margin: 100px 0 0px 200px;
+         font-size: 1.2rem;
+         line-height: 1.5rem;
+         padding-bottom: 30vh;
+         color: var(--fg-col);
+         }
+
+      h2{
+         font-family: Kombi;
+         font-size: 4rem;
+         line-height: 5rem;
+      }
+
+      p{
+         padding: 20px 0;
+      }
+
+      @media (max-width: 1024px){
+         main {
+            width: 60%;
+            margin: 100px 0 0px 50px;
+         }
+      }
+
+      @media (max-width: 768px){
+         nav.sub-nav {
+            display: none;
+         }
+      }
+
+
+   </style>
 </head>
 <body>
+   <div class="navbar">
+      <header><h1>PORTFOLIO</h1></header>
+      <nav class="main-nav">
+         <ul>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+         </ul>
+      </nav>
+   </div>
+   <nav class="sub-nav">
+         <ul>
+            <li data-bg-col="#d45757" class="active"><a href="#risd-summer-2019">RISD Summer 2019</a></li>
+            <li data-bg-col="#1e385a"><a href="#setting-sail">Setting Sail</a></li>
+            <li data-bg-col="#ff770e"><a href="#elm-college-logo">Elm College Logo</a></li>
+            <li data-bg-col="#004b8d"><a href="#sa-projects">SA Projects</a></li>
+            <li data-bg-col="#ff9839"><a href="#dish-it">Dish It App</a></li>
+            <li data-bg-col="#6a7790"><a href="#portfolio-site">Portfolio Website</a></li>
+         </ul>
+      </nav>
+   <main>
+      <section class="portfolio-item" id="risd-summer-2019">
+         <h2 >RISD Summer 2019</h2>
+         <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit posuere molestie. Etiam in felis ut urna blandit maximus. Fusce neque lorem, porttitor eget ipsum et, ultricies fringilla orci. Suspendisse potenti. Sed efficitur sit amet turpis ac fringilla. Curabitur malesuada dictum nisi, eget tristique nibh ultrices ac. Pellentesque imperdiet nibh vestibulum velit congue placerat. Fusce volutpat, magna in convallis pretium, neque est viverra diam, ac dictum odio mi id dui. Proin vulputate lacus sit amet efficitur varius.
+         </p>
+         <p>
+         Morbi et est cursus, semper lacus vel, commodo justo. Etiam in gravida arcu, gravida tincidunt justo. Vivamus eu ultricies justo, eu facilisis dui. Nam porta ante at lectus egestas, a commodo risus pulvinar. Cras quis euismod leo. Donec tempor nec turpis ut cursus. Nulla iaculis velit at mauris egestas, non accumsan justo tempus. Quisque a sapien id velit ultrices consequat. Maecenas quis nulla at libero luctus fermentum quis porta libero. Nam congue ante a convallis fermentum. In hac habitasse platea dictumst. Vivamus pharetra congue sapien vitae ullamcorper.
+         </p>
+         <p>
+         Nunc ac maximus nulla. Cras euismod metus a odio interdum aliquet. In condimentum pulvinar cursus. Maecenas id nulla mauris. Aliquam ut velit ac sapien ultricies malesuada. Nulla non erat volutpat, porttitor leo in, lacinia velit. Vestibulum facilisis, ipsum at lobortis tempus, enim risus porta nibh, eu tempus justo nisi in mi. Nunc quam turpis, rhoncus porttitor quam in, blandit hendrerit nibh. Praesent in lacus lacus. Vestibulum eu ligula eget odio facilisis eleifend. Donec elit metus, laoreet vel semper ac, hendrerit non augue. Vestibulum ornare nec quam id dapibus. Phasellus euismod lacus rhoncus ipsum hendrerit pharetra. Sed non felis nisi. Nullam non mi feugiat, faucibus augue eu, semper eros.
+         </p>
+      </section>
+      <section class="portfolio-item" id="setting-sail">
+         <h2>Setting Sail</h2>
+         <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit posuere molestie. Etiam in felis ut urna blandit maximus. Fusce neque lorem, porttitor eget ipsum et, ultricies fringilla orci. Suspendisse potenti. Sed efficitur sit amet turpis ac fringilla. Curabitur malesuada dictum nisi, eget tristique nibh ultrices ac. Pellentesque imperdiet nibh vestibulum velit congue placerat. Fusce volutpat, magna in convallis pretium, neque est viverra diam, ac dictum odio mi id dui. Proin vulputate lacus sit amet efficitur varius.
+         </p>
+         <p>
+         Morbi et est cursus, semper lacus vel, commodo justo. Etiam in gravida arcu, gravida tincidunt justo. Vivamus eu ultricies justo, eu facilisis dui. Nam porta ante at lectus egestas, a commodo risus pulvinar. Cras quis euismod leo. Donec tempor nec turpis ut cursus. Nulla iaculis velit at mauris egestas, non accumsan justo tempus. Quisque a sapien id velit ultrices consequat. Maecenas quis nulla at libero luctus fermentum quis porta libero. Nam congue ante a convallis fermentum. In hac habitasse platea dictumst. Vivamus pharetra congue sapien vitae ullamcorper.
+         </p>
+         <p>
+         Nunc ac maximus nulla. Cras euismod metus a odio interdum aliquet. In condimentum pulvinar cursus. Maecenas id nulla mauris. Aliquam ut velit ac sapien ultricies malesuada. Nulla non erat volutpat, porttitor leo in, lacinia velit. Vestibulum facilisis, ipsum at lobortis tempus, enim risus porta nibh, eu tempus justo nisi in mi. Nunc quam turpis, rhoncus porttitor quam in, blandit hendrerit nibh. Praesent in lacus lacus. Vestibulum eu ligula eget odio facilisis eleifend. Donec elit metus, laoreet vel semper ac, hendrerit non augue. Vestibulum ornare nec quam id dapibus. Phasellus euismod lacus rhoncus ipsum hendrerit pharetra. Sed non felis nisi. Nullam non mi feugiat, faucibus augue eu, semper eros.
+         </p>
+      </section>
+      <section class="portfolio-item" id="elm-college-logo">
+         <h2>Elm College Logo</h2>
+         <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit posuere molestie. Etiam in felis ut urna blandit maximus. Fusce neque lorem, porttitor eget ipsum et, ultricies fringilla orci. Suspendisse potenti. Sed efficitur sit amet turpis ac fringilla. Curabitur malesuada dictum nisi, eget tristique nibh ultrices ac. Pellentesque imperdiet nibh vestibulum velit congue placerat. Fusce volutpat, magna in convallis pretium, neque est viverra diam, ac dictum odio mi id dui. Proin vulputate lacus sit amet efficitur varius.
+         </p>
+         <p>
+         Morbi et est cursus, semper lacus vel, commodo justo. Etiam in gravida arcu, gravida tincidunt justo. Vivamus eu ultricies justo, eu facilisis dui. Nam porta ante at lectus egestas, a commodo risus pulvinar. Cras quis euismod leo. Donec tempor nec turpis ut cursus. Nulla iaculis velit at mauris egestas, non accumsan justo tempus. Quisque a sapien id velit ultrices consequat. Maecenas quis nulla at libero luctus fermentum quis porta libero. Nam congue ante a convallis fermentum. In hac habitasse platea dictumst. Vivamus pharetra congue sapien vitae ullamcorper.
+         </p>
+         <p>
+         Nunc ac maximus nulla. Cras euismod metus a odio interdum aliquet. In condimentum pulvinar cursus. Maecenas id nulla mauris. Aliquam ut velit ac sapien ultricies malesuada. Nulla non erat volutpat, porttitor leo in, lacinia velit. Vestibulum facilisis, ipsum at lobortis tempus, enim risus porta nibh, eu tempus justo nisi in mi. Nunc quam turpis, rhoncus porttitor quam in, blandit hendrerit nibh. Praesent in lacus lacus. Vestibulum eu ligula eget odio facilisis eleifend. Donec elit metus, laoreet vel semper ac, hendrerit non augue. Vestibulum ornare nec quam id dapibus. Phasellus euismod lacus rhoncus ipsum hendrerit pharetra. Sed non felis nisi. Nullam non mi feugiat, faucibus augue eu, semper eros.
+         </p>
+      </section>
+      <section class="portfolio-item" id="sa-projects">
+         <h2>Student Associate Projects</h2>
+         <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit posuere molestie. Etiam in felis ut urna blandit maximus. Fusce neque lorem, porttitor eget ipsum et, ultricies fringilla orci. Suspendisse potenti. Sed efficitur sit amet turpis ac fringilla. Curabitur malesuada dictum nisi, eget tristique nibh ultrices ac. Pellentesque imperdiet nibh vestibulum velit congue placerat. Fusce volutpat, magna in convallis pretium, neque est viverra diam, ac dictum odio mi id dui. Proin vulputate lacus sit amet efficitur varius.
+         </p>
+         <p>
+         Morbi et est cursus, semper lacus vel, commodo justo. Etiam in gravida arcu, gravida tincidunt justo. Vivamus eu ultricies justo, eu facilisis dui. Nam porta ante at lectus egestas, a commodo risus pulvinar. Cras quis euismod leo. Donec tempor nec turpis ut cursus. Nulla iaculis velit at mauris egestas, non accumsan justo tempus. Quisque a sapien id velit ultrices consequat. Maecenas quis nulla at libero luctus fermentum quis porta libero. Nam congue ante a convallis fermentum. In hac habitasse platea dictumst. Vivamus pharetra congue sapien vitae ullamcorper.
+         </p>
+         <p>
+         Nunc ac maximus nulla. Cras euismod metus a odio interdum aliquet. In condimentum pulvinar cursus. Maecenas id nulla mauris. Aliquam ut velit ac sapien ultricies malesuada. Nulla non erat volutpat, porttitor leo in, lacinia velit. Vestibulum facilisis, ipsum at lobortis tempus, enim risus porta nibh, eu tempus justo nisi in mi. Nunc quam turpis, rhoncus porttitor quam in, blandit hendrerit nibh. Praesent in lacus lacus. Vestibulum eu ligula eget odio facilisis eleifend. Donec elit metus, laoreet vel semper ac, hendrerit non augue. Vestibulum ornare nec quam id dapibus. Phasellus euismod lacus rhoncus ipsum hendrerit pharetra. Sed non felis nisi. Nullam non mi feugiat, faucibus augue eu, semper eros.
+         </p>
+      </section>
+      <section class="portfolio-item" id="dish-it">
+         <h2 >RISD Summer 2019</h2>
+         <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit posuere molestie. Etiam in felis ut urna blandit maximus. Fusce neque lorem, porttitor eget ipsum et, ultricies fringilla orci. Suspendisse potenti. Sed efficitur sit amet turpis ac fringilla. Curabitur malesuada dictum nisi, eget tristique nibh ultrices ac. Pellentesque imperdiet nibh vestibulum velit congue placerat. Fusce volutpat, magna in convallis pretium, neque est viverra diam, ac dictum odio mi id dui. Proin vulputate lacus sit amet efficitur varius.
+         </p>
+         <p>
+         Morbi et est cursus, semper lacus vel, commodo justo. Etiam in gravida arcu, gravida tincidunt justo. Vivamus eu ultricies justo, eu facilisis dui. Nam porta ante at lectus egestas, a commodo risus pulvinar. Cras quis euismod leo. Donec tempor nec turpis ut cursus. Nulla iaculis velit at mauris egestas, non accumsan justo tempus. Quisque a sapien id velit ultrices consequat. Maecenas quis nulla at libero luctus fermentum quis porta libero. Nam congue ante a convallis fermentum. In hac habitasse platea dictumst. Vivamus pharetra congue sapien vitae ullamcorper.
+         </p>
+         <p>
+         Nunc ac maximus nulla. Cras euismod metus a odio interdum aliquet. In condimentum pulvinar cursus. Maecenas id nulla mauris. Aliquam ut velit ac sapien ultricies malesuada. Nulla non erat volutpat, porttitor leo in, lacinia velit. Vestibulum facilisis, ipsum at lobortis tempus, enim risus porta nibh, eu tempus justo nisi in mi. Nunc quam turpis, rhoncus porttitor quam in, blandit hendrerit nibh. Praesent in lacus lacus. Vestibulum eu ligula eget odio facilisis eleifend. Donec elit metus, laoreet vel semper ac, hendrerit non augue. Vestibulum ornare nec quam id dapibus. Phasellus euismod lacus rhoncus ipsum hendrerit pharetra. Sed non felis nisi. Nullam non mi feugiat, faucibus augue eu, semper eros.
+         </p>
+      </section>
+      <section class="portfolio-item" id="portfolio-site">
+         <h2>Setting Sail</h2>
+         <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit posuere molestie. Etiam in felis ut urna blandit maximus. Fusce neque lorem, porttitor eget ipsum et, ultricies fringilla orci. Suspendisse potenti. Sed efficitur sit amet turpis ac fringilla. Curabitur malesuada dictum nisi, eget tristique nibh ultrices ac. Pellentesque imperdiet nibh vestibulum velit congue placerat. Fusce volutpat, magna in convallis pretium, neque est viverra diam, ac dictum odio mi id dui. Proin vulputate lacus sit amet efficitur varius.
+         </p>
+         <p>
+         Morbi et est cursus, semper lacus vel, commodo justo. Etiam in gravida arcu, gravida tincidunt justo. Vivamus eu ultricies justo, eu facilisis dui. Nam porta ante at lectus egestas, a commodo risus pulvinar. Cras quis euismod leo. Donec tempor nec turpis ut cursus. Nulla iaculis velit at mauris egestas, non accumsan justo tempus. Quisque a sapien id velit ultrices consequat. Maecenas quis nulla at libero luctus fermentum quis porta libero. Nam congue ante a convallis fermentum. In hac habitasse platea dictumst. Vivamus pharetra congue sapien vitae ullamcorper.
+         </p>
+         <p>
+         Nunc ac maximus nulla. Cras euismod metus a odio interdum aliquet. In condimentum pulvinar cursus. Maecenas id nulla mauris. Aliquam ut velit ac sapien ultricies malesuada. Nulla non erat volutpat, porttitor leo in, lacinia velit. Vestibulum facilisis, ipsum at lobortis tempus, enim risus porta nibh, eu tempus justo nisi in mi. Nunc quam turpis, rhoncus porttitor quam in, blandit hendrerit nibh. Praesent in lacus lacus. Vestibulum eu ligula eget odio facilisis eleifend. Donec elit metus, laoreet vel semper ac, hendrerit non augue. Vestibulum ornare nec quam id dapibus. Phasellus euismod lacus rhoncus ipsum hendrerit pharetra. Sed non felis nisi. Nullam non mi feugiat, faucibus augue eu, semper eros.
+         </p>
+      </section>
+   </main>
+
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+   var cutoffValues = [];
+   $(".portfolio-item").each(function(){
+      cutoffValues.push($(this).offset().top + $(this).height() - 300);
+   });
+   console.log(cutoffValues)
+   $(window).scroll(function(){
+      $(".sub-nav li").removeClass("active")
+      for(var i = 0; i < cutoffValues.length; i++ ){
+         if($(window).scrollTop() < cutoffValues[i]){
+            $(".sub-nav li:nth-child(" + (i+1) + ")").addClass("active");
+            var bgcol = $(".sub-nav li:nth-child(" + (i+1) + ")").attr("data-bg-col");
+            $("html").css("background", bgcol);
+            $(".navbar").css({"background": bgcol, "box-shadow": "0 -25px 15px " + bgcol});
+            return;
+         }
+      }
+   });
+</script>
 </html>
