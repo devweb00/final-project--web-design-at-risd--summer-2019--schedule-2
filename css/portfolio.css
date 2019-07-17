@@ -1,0 +1,95 @@
+nav.sub-nav{
+     z-index: 4;
+     animation-name: slidefromright;
+   animation-duration: 0.4s;
+     position: fixed;
+     right:70px;
+     bottom: 25vh;
+     text-align: right;
+     font-family: Kombi;
+     font-size: 1.8rem;
+     line-height: 2.2rem;
+}
+ nav.sub-nav li{
+     transition: all 0.2s
+}
+ nav.sub-nav li:hover{
+     opacity: 0.8;
+     cursor: pointer;
+}
+ nav.sub-nav a{
+     padding:0 10px 3px;
+     color: var(--fg-col);
+     text-decoration: none;
+}
+ nav.sub-nav li.active{
+     background-color: var(--fg-col);
+}
+ nav.sub-nav li.active a{
+     color: var(--bg-col);
+     pointer-events: none;
+}
+ section.portfolio-item {
+     padding-top: 80px;
+     font-family: Cabin, sans-serif;
+}
+.portfolio-image-container {
+     display: flex;
+     align-items: center;
+     width: 100%;
+     justify-content: left;
+     padding: 30px 0;
+}
+ .portfolio-image-container img {
+     background: var(--fg-col);
+     border-radius: 50%;
+     box-sizing: border-box;
+     padding: 10px;
+     object-fit: cover;
+     width: 200px;
+     height: 200px;
+}
+ .portfolio-image-caption {
+     display: inline-block;
+     padding: 0 30px;
+     width: 40%;
+}
+ .portfolio-image-caption>h3 {
+     text-transform: uppercase;
+     font-family: Kombi, sans-serif;
+     padding-bottom: 10px;
+     font-size: 1.5rem;
+}
+ @media (min-width: 768px){
+     .portfolio-image-container:nth-child(odd) a{
+         order: 2;
+    }
+     .portfolio-image-container:nth-child(even) a{
+         order: 1;
+    }
+     .portfolio-image-container:nth-child(odd) .portfolio-image-caption{
+         order: 1;
+         text-align: right;
+    }
+     .portfolio-image-container:nth-child(even) .portfolio-image-caption{
+         order: 2;
+    }
+}
+ @media (max-width: 768px){
+     header h1{
+     display: block;
+}
+     .portfolio-image-container {
+         flex-direction: column;
+    }
+     .portfolio-image-caption {
+         display: block;
+         text-align: center;
+         padding: 5vw;
+         width: 70%;
+    }
+}
+
+@media (max-width: 425px){
+
+}
