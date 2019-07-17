@@ -1,0 +1,174 @@
+ @font-face {
+     font-family: 'Kombi';
+     src: url('./Kombi-Regular.otf');
+     font-weight: normal;
+     font-style: normal;
+}
+ :root{
+     --fg-col:#f6f6f6;
+     --bg-col:#222;
+}
+ html {
+     background: #5d3c24;
+     scroll-behavior: smooth;
+     transition: all 0.4s;
+}
+ .navbar{
+     position: fixed;
+     left:0;
+     bottom: 0;
+     width: 100%;
+     background-color: #5d3c24;
+     box-shadow: 0 -25px 15px #5d3c24;
+     transition: all 0.4s;
+}
+ header{
+     font-family: 'Kombi';
+     text-align: right;
+     margin-right: 40px;
+     text-transform: uppercase;
+     color: var(--fg-col);
+}
+ header h1{
+     font-size: 12vh;
+     line-height: 9vh;
+     display: block;
+}
+ nav.main-nav{
+     background: var(--fg-col);
+     color: var(--bg-col);
+     text-align: right;
+     height: 10vh;
+     width: 100%
+}
+ nav.main-nav li{
+     font-family: 'Kombi';
+     display: inline-block;
+     font-size: 5vh;
+     line-height: 10vh;
+     text-transform: lowercase;
+     margin: 0 3vw;
+     cursor: pointer;
+}
+ nav.sub-nav{
+     position: fixed;
+     right:70px;
+     bottom: 25vh;
+     text-align: right;
+     font-family: Kombi;
+     font-size: 1.8rem;
+     line-height: 2.2rem;
+}
+ nav.sub-nav li{
+     transition: all 0.2s
+}
+ nav.sub-nav li:hover{
+     opacity: 0.8;
+     cursor: pointer;
+}
+ nav.sub-nav a{
+     padding:0 10px 3px;
+     color: var(--fg-col);
+     text-decoration: none;
+}
+ nav.sub-nav li.active{
+     background-color: var(--fg-col);
+}
+ nav.sub-nav li.active a{
+     color: var(--bg-col);
+     pointer-events: none;
+}
+ main{
+     width: 60%;
+     margin: 100px 0 0px 200px;
+     font-size: 1.2rem;
+     line-height: 1.5rem;
+     padding-bottom: 30vh;
+     color: var(--fg-col);
+}
+ section.portfolio-item {
+     padding-top: 100px;
+     font-family: Cabin, sans-serif;
+}
+ h2{
+     font-family: Kombi;
+     font-size: 4rem;
+     line-height: 5rem;
+}
+ a{
+     text-decoration: none;
+     color:var(--fg-col);
+     font-weight: 700;
+}
+ p a:hover{
+     opacity: 0.8;
+}
+ p{
+     padding: 20px 0;
+}
+ @media (max-width: 1024px){
+     main {
+         width: 60%;
+         margin: 100px 0 0px 50px;
+    }
+}
+ @media (max-width: 768px){
+     main {
+         width: 80%;
+    }
+     nav.sub-nav {
+         display: none;
+    }
+}
+ .portfolio-image-container {
+     display: flex;
+     align-items: center;
+     width: 100%;
+     justify-content: left;
+     padding: 30px 0;
+}
+ .portfolio-image-container img {
+     background: var(--fg-col);
+     border-radius: 50%;
+     box-sizing: border-box;
+     padding: 10px;
+     object-fit: cover;
+     width: 200px;
+     height: 200px;
+}
+ .portfolio-image-caption {
+     display: inline-block;
+     padding: 0 30px;
+     width: 40%;
+}
+ .portfolio-image-caption>h3 {
+     text-transform: uppercase;
+     font-family: Kombi, sans-serif;
+     padding-bottom: 10px;
+}
+ @media (min-width: 768px){
+     .portfolio-image-container:nth-child(odd) a{
+         order: 2;
+    }
+     .portfolio-image-container:nth-child(even) a{
+         order: 1;
+    }
+     .portfolio-image-container:nth-child(odd) .portfolio-image-caption{
+         order: 1;
+         text-align: right;
+    }
+     .portfolio-image-container:nth-child(even) .portfolio-image-caption{
+         order: 2;
+    }
+}
+ @media (max-width: 768px){
+     .portfolio-image-container {
+         flex-direction: column;
+    }
+     .portfolio-image-caption {
+         display: block;
+         text-align: center;
+         padding: 5vw;
+         width: 70%;
+    }
+}
