@@ -1,21 +1,28 @@
-body {
-   background-image: url('./img/homepage.png');
-   background-size: cover;
-}
 
 header {
-   font-size: 40px;
+   font-size: 80px;
    text-align: center;
    color: white;
    background-color: black;
    padding: 20px;
+   height: 120px;
 }
 
 nav {
-   height: 40px;
-   background-color: green;
+   height: 80px;
+   background-color: white;
+   width: auto;
+   display: flex;
+   justify-content: space-evenly;
 }
 
 a {
    text-decoration: none;
+   border: white;
+   background-color: black;
+   padding: 20px;
+   font-size: 25px;
+   width: 200px;
+   text-align: center;
+   margin: 10px;
 }
