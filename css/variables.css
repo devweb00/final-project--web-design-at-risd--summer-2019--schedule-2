@@ -1,0 +1,5 @@
+:root {
+   --grid-column: 60px;
+   --grid-gutter: 20px;
+   --grid-unit: 80px;
+}
