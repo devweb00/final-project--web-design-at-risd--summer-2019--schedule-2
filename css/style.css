@@ -1,3 +1,10 @@
+ @font-face {
+     font-family: 'Kombi';
+     src: url('../Kombi-Regular.woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
 @keyframes slidefromleft {
    from{
       opacity: 0;
@@ -32,18 +39,13 @@
    }
 }
 
- @font-face {
-     font-family: 'Kombi';
-     src: url('./Kombi-Regular.otf');
-     font-weight: normal;
-     font-style: normal;
-}
+
  :root{
      --fg-col:#f6f6f6;
      --bg-col:#222;
 }
  html {
-     background: #8e6546;
+     background: #1e385a;
      scroll-behavior: smooth;
      transition: all 0.4s;
 }
@@ -54,13 +56,13 @@
      left:0;
      bottom: 0;
      width: 100%;
-     background-color: #8e6546;
-     box-shadow: 0 -70px 70px #8e6546;
+     background-color: #1e385a;
+     box-shadow: 0 -60px 60px #1e385a;
      transition: all 0.4s;
      z-index: 3;
 }
  header{
-     font-family: 'Kombi';
+     font-family: 'Kombi', sans-serif;
      text-align: right;
      margin-right: 40px;
      text-transform: uppercase;
@@ -79,7 +81,7 @@
      width: 100%
 }
  nav.main-nav li{
-     font-family: 'Kombi';
+     font-family: 'Kombi', sans-serif;
      display: inline-block;
      font-size: 5vh;
      line-height: 10vh;
@@ -109,7 +111,7 @@ nav li a:hover{
 }
 
  h2{
-     font-family: Kombi;
+     font-family: Kombi, sans-serif;
      font-size: 4rem;
      line-height: 3.8rem;
 }

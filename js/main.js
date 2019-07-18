@@ -11,7 +11,7 @@
             $(".sub-nav li:nth-child(" + (i+1) + ")").addClass("active");
             var bgcol = $(".sub-nav li:nth-child(" + (i+1) + ")").attr("data-bg-col");
             $("html").css("background", bgcol);
-            $(".navbar").css({"background": bgcol, "box-shadow": "0 -70px 70px " + bgcol});
+            $(".navbar").css({"background": bgcol, "box-shadow": "0 -60px 60px " + bgcol});
             return;
          }
       }

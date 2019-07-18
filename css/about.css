@@ -21,14 +21,33 @@ section h2{
 
 #portrait{
    animation-name: slidefromright;
-   animation-duration: 0.4s;
+   animation-duration: 0.6s;
    z-index: 0;
    position: absolute;
    right: 0;
-   bottom:0;
-   height: 90vh;
+   bottom:5vh;
+   height: 95vh;
 }
 
 main {
+   width: 60%;
    padding-bottom: 0;
+}
+
+#contact h2{
+   margin: 30px 0;
+}
+
+
+ @media (max-width: 1024px){
+     main {
+         width: 100%;
+    }
+    section h2{
+      font-size: 6vh;
+         line-height: 6vh
+    }
+   #portrait {
+         z-index: -1;
+    }
 }
