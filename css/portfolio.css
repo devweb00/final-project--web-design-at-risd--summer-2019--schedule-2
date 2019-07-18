@@ -1,7 +1,7 @@
 nav.sub-nav{
      z-index: 4;
      animation-name: slidefromright;
-   animation-duration: 0.4s;
+   animation-duration: 0.6s;
      position: fixed;
      right:70px;
      bottom: 25vh;
@@ -60,6 +60,11 @@ nav.sub-nav{
      padding-bottom: 10px;
      font-size: 1.5rem;
 }
+
+.dishit-demo{
+     height: 400px;
+}
+
  @media (min-width: 768px){
      .portfolio-image-container:nth-child(odd) a{
          order: 2;
