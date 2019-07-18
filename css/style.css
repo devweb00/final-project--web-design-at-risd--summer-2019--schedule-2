@@ -6,11 +6,20 @@ header {
 h1 {
    font-size: 40px;
    text-align: center;
-   margin: 20px;
+   padding: 20px;
 }
 
 h2 {
    font-size: 35px;
    text-align: center;
-   margin: 10px;
+   padding: 10px;
+}
+
+nav {
+   height: 40px;
+   background-color: green;
+}
+
+a {
+   text-decoration: none;
 }
