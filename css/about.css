@@ -19,3 +19,16 @@ nav {
    justify-content: space-evenly;
    align-items: center;
 }
+
+a {
+   text-decoration: none;
+   border: white;
+   background-color: black;
+   padding: 20px;
+   font-size: 25px;
+   width: 200px;
+   text-align: center;
+   margin: 10px;
+   color: white;
+   border-radius: 10px;
+}
