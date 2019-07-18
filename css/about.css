@@ -1,0 +1,21 @@
+body {
+   background-color: yellow;
+}
+
+header {
+   font-size: 80px;
+   text-align: center;
+   color: white;
+   background-color: black;
+   padding-top: 20px;
+   height: 120px;
+}
+
+nav {
+   height: 100px;
+   background-color: white;
+   width: auto;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
