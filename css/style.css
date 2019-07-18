@@ -1,14 +1,14 @@
+body {
+   background-image: url('./img/homepage.png');
+   background-size: cover;
+}
 
-h1 {
+header {
    font-size: 40px;
    text-align: center;
    color: white;
-}
-
-h2 {
-   font-size: 35px;
-   text-align: center;
-   color: white;
+   background-color: black;
+   padding: 20px;
 }
 
 nav {
@@ -18,9 +18,4 @@ nav {
 
 a {
    text-decoration: none;
-}
-
-body {
-   background-image: url('./img/homepage.png');
-   background-size: cover;
 }
