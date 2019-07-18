@@ -1,18 +1,14 @@
-header {
-   background-color: yellow;
-   height: 300px;
-}
 
 h1 {
    font-size: 40px;
    text-align: center;
-   padding: 20px;
+   color: white;
 }
 
 h2 {
    font-size: 35px;
    text-align: center;
-   padding: 10px;
+   color: white;
 }
 
 nav {
@@ -22,4 +18,9 @@ nav {
 
 a {
    text-decoration: none;
+}
+
+body {
+   background-image: url('./img/homepage.png');
+   background-size: cover;
 }
