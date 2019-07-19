@@ -1,4 +1,4 @@
- @font-face {
+  @font-face {
      font-family: 'Kombi';
      src: url('../Kombi-Regular.woff');
      font-weight: normal;
@@ -158,5 +158,8 @@ main a:hover {
      nav.sub-nav {
          display: none;
     }
+     nav.main-nav li{
+      font-size: 1.2rem;
+     }
 }
 
