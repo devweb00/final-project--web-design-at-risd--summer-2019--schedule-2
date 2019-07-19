@@ -55,6 +55,7 @@ a:active {
    position: fixed;
    bottom: 0;
    background-color: black;
+   z-index: 1;
 }
 
 .title {
