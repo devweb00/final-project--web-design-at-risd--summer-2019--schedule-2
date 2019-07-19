@@ -16,18 +16,20 @@ h5 {
 }
 
 .workitems img:nth-child(1) {
-   width: 500px;
+   width: 484px;
    float: left;
-   margin-top: 60px;
+   margin: auto;
    margin-left: 5%;
+   padding: 10px;
 }
 
 .workitems img:nth-child(2) {
-   width: 500 px;
+   width: 460px;
    float: right;
-    margin-top: 5%;
-   margin-right: 13%;
+    margin: auto;
+   margin-right: 14%;
    padding-bottom: 15px;
    position: relative;
    z-index: 1;
+   padding: 10px
 }
