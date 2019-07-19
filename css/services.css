@@ -1,42 +1,43 @@
 body {
-   box-sizing: border-box;
-   background-color: black;
-   width: 100vw;
-   display: flex;
+
 }
 
 .services h1 {
    font-family: Righteous, sans-serif;
-   color: white;
    text-align: center;
-   position: absolute;
-   padding: 5px;
-   width: 800px;
+   font-weight: 700;
+   font-size: 48px;
+   margin-top: 30px;
+   border-bottom: 20px;
    margin: 0 calc(50vw - 400px) 1em;
 }
 
-.services h2 {
-   font-family: Poppins, sans-serif;
-   color: white;
-   text-align: left;
-   position: absolute;
-   padding: 5px;
-   width: 800px;
-   margin: 100px auto;
+#what-drives-me {
+   display: flex;
+   width: 900px;
+   margin: auto;
 }
 
-.services h3 {
-   font-family: Poppins, sans-serif;
-   color: white;
-   text-align: left;
-   position: absolute;
-   padding: 5px;
-   width: 800px;
-   margin: 200px auto;
+.item {
+   color: red;
+   border: 5px solid white;
+   width: 298px;
+   background: black;
 }
 
-.services p {
-   color: white;
-   margin: 100px auto;
-   width: 800px;
+.item--image-container img {
+   width: 100%;
+   background-color: blue;
+}
+
+.item--image-container h2 {
+   font-family: Poppins, sans-serif;
+   font-size: 30px;
+   position: absolute;
+   text-align: center;
+   background: black;
+}
+
+.item--image-container {
+   position: relative;
 }
