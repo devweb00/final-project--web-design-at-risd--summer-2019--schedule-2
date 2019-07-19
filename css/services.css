@@ -14,28 +14,33 @@ body {
 
 #what-drives-me {
    display: flex;
-   width: 900px;
+   width: 1200px;
    margin: auto;
 }
 
 .item {
    color: red;
    border: 5px solid white;
-   width: 298px;
-   background: black;
+   width: 400px;
 }
 
 .item--image-container img {
    width: 100%;
-   background-color: blue;
 }
 
 .item--image-container h2 {
    font-family: Poppins, sans-serif;
    font-size: 30px;
+   width: 400px;
+   line-height: 390px;
    position: absolute;
    text-align: center;
-   background: black;
+   background-color: transparent;
+}
+
+.item--image-container + p {
+   font-family: Poppins, sans-serif;
+   text-align: center;
 }
 
 .item--image-container {
