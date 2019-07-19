@@ -1,0 +1,165 @@
+  @font-face {
+     font-family: 'Kombi';
+     src: url('../Kombi-Regular.woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@keyframes slidefromleft {
+   from{
+      opacity: 0;
+      transform: translateX(-100vw);
+   }
+   to{
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+
+@keyframes slidefromright {
+   from{
+      opacity: 0;
+      transform: translateX(100vw);
+   }
+   to{
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+
+
+@keyframes slidefrombottom {
+   from{
+      opacity: 0;
+      transform: translateY(40vh);
+   }
+   to{
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+
+ :root{
+     --fg-col:#f6f6f6;
+     --bg-col:#222;
+}
+ html {
+     background: #444;
+     scroll-behavior: smooth;
+     transition: all 0.4s;
+     font-size: 20px;
+}
+ .navbar{
+     position: fixed;
+     left:0;
+     bottom: 0;
+     width: 100%;
+     background-color: #444;
+     box-shadow: 0 -60px 60px #444;
+     transition: all 0.4s;
+     z-index: 3;
+}
+ header{
+     font-family: 'Kombi', sans-serif;
+     text-align: right;
+     margin-right: 40px;
+     text-transform: uppercase;
+     color: var(--fg-col);
+}
+ header h1{
+    position: relative;
+    z-index: 2;
+    animation-name: slidefrombottom;
+     animation-duration: 0.4s;
+     font-size: 12vh;
+     line-height: 9vh;
+     display: block;
+}
+ nav.main-nav{
+    position: relative;
+    z-index: 3;
+     background: var(--fg-col);
+     color: var(--bg-col);
+     text-align: right;
+     height: 10vh;
+     width: 100%
+}
+ nav.main-nav li{
+     font-family: 'Kombi', sans-serif;
+     display: inline-block;
+     font-size: 5vh;
+     line-height: 10vh;
+     text-transform: lowercase;
+     margin: 0 3vw;
+     cursor: pointer;
+}
+
+nav li a{
+    text-decoration: none;
+    color: var(--bg-col);
+}
+
+nav li a:hover{
+    opacity: 0.8;
+}
+
+ main{
+       animation-name: slidefromleft;
+   animation-duration: 0.6s;
+     width: 60%;
+     margin: 100px 0 0px 200px;
+     font-size: 1.2rem;
+     line-height: 1.5rem;
+     padding-bottom: 30vh;
+     color: var(--fg-col);
+}
+
+ h2{
+     font-family: Kombi, sans-serif;
+     font-size: 4rem;
+     line-height: 3.8rem;
+}
+
+main a {
+    text-decoration: none;
+    color:inherit;
+}
+
+main i{
+    font-style: italic;
+}
+
+main a:hover {
+    opacity: 0.8;
+}
+
+ main a{
+     text-decoration: none;
+     color:var(--fg-col);
+     font-weight: 700;
+}
+ p a:hover{
+     opacity: 0.8;
+}
+ p{
+     padding: 20px 0;
+}
+ @media (max-width: 1024px){
+     main {
+         width: 60%;
+         margin: 100px 0 0px 50px;
+    }
+}
+ @media (max-width: 768px){
+     main {
+         width: 80%;
+    }
+     nav.sub-nav {
+         display: none;
+    }
+     nav.main-nav li{
+      font-size: 1.2rem;
+     }
+}
+
