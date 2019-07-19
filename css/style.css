@@ -44,7 +44,17 @@ h2 {
   margin-top:-16px;
   font-size: 55px;
    color: black
+}
 
+
+ h4 {
+  font-size: 40px;
+   color: black;
+   font-family:'Roboto Condensed', sans-serif;
+   margin-top: 583px;
+   margin-left: 170px;
+   position: absolute;
+   z-index: 2;
 }
 
  .vertical {
@@ -93,7 +103,7 @@ a:link {
    color: red;
 } */
 
-a:hover {
+/*a:hover {
    /* text-decoration: overline; */
    background-color: white;
 }
@@ -102,15 +112,15 @@ a:active {
    background-color: green;
 }
 
-:root {
+/*:root {
    --height--nav: 40px;
 }
 
-/*nav + #aboutcontact {
+nav + #aboutcontact {
    margin-top: 40px;
-}
+}*/
 
-ul {
+/*ul {
    list-style-type: lower-greek;
    margin-left: 140px;
 }
@@ -144,20 +154,46 @@ ul {
    border-radius: 4px;
 }*/
 
-.workcontainer{
+
+
+/*.workcontainer{
  margin: auto;
  display:flex:
  flex-direction:row;
  flex-wrap: wrap;
  justify-content: center;
  height: 500px;
+ width:1200px;
+}*/
+
+.workitems {
+margin: auto;
+/* display:flex:
+ flex-direction:row;*/
+/* flex-wrap: wrap;
+ justify-content: center;*/
+ width:500px;
+ background-color: red;
+ height: 200px;
 }
 
-.workitems{
-width: 124vw;
-height: 100vw;
-margin: auto;
+.workitems img:nth-child(1) {
+   width: 400px;
+   float: left;
+   margin-top: 63px;
+   margin-left: 16%;
 }
+
+.workitems img:nth-child(2) {
+   width: 400px;
+   float: right;
+    margin-top: 5%;
+   margin-right: 13%;
+   padding-bottom: 15px;
+   position: relative;
+   z-index: 1;
+}
+
 .col-md-6no-gutter {
  display: inline-flex;
  flex-direction:row;
@@ -172,6 +208,7 @@ margin: auto;
 
 .leftside {
    background: pink;
+
 }
 
 .rightside {
