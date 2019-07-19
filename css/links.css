@@ -1,0 +1,33 @@
+li:nth-child(-n+8) {
+   border: 1px black;
+}
+
+li {
+   vertical-align: middle;
+}
+
+a {
+   width: 100%;
+   border: 1px black;
+   display: block;
+   transition: 500ms;
+   color: white;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+/* a:visited {
+   color: red;
+} */
+
+a:hover {
+   /* text-decoration: overline; */
+   background-color: #77a6a1;
+   line-height: 1.2;
+}
+
+a:active {
+   background-color: green;
+}

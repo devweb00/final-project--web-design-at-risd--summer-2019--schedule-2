@@ -1,0 +1,70 @@
+body {
+
+}
+
+.services h1 {
+   font-family: Righteous, sans-serif;
+   text-align: center;
+   font-weight: 700;
+   font-size: 48px;
+   border-bottom: 20px;
+   margin:40px calc(50vw - 400px) 1em;
+}
+
+#what-drives-me {
+   display: flex;
+   width: 1200px;
+   margin: auto;
+}
+
+/* #what-im-good-at {
+   display: flex;
+   width: 1200px;
+   margin: auto;
+} */
+
+.item {
+   color: red;
+   border: 10px solid white;
+   width: 400px;
+}
+
+.item--image-container img {
+   width: 100%;
+}
+
+.item--image-container h2 {
+   font-family: Poppins, sans-serif;
+   font-size: 40px;
+   font-weight: bold;
+   color: white;
+   width: 400px;
+   line-height: 250px;
+   position: absolute;
+   text-align: center;
+   background-color: transparent;
+}
+
+.item--image-container + p {
+   font-family: Poppins, sans-serif;
+   text-align: center;
+   color: black;
+   padding-top: 10px;
+}
+
+.item--image-container {
+   position: relative;
+}
+
+ul > li {
+   font-family: Poppins, sans-serif;
+   width: 80%;
+   margin: 30px auto;
+   text-align: center;
+   list-style-type: none;
+   color: black;
+}
+
+span.bold {
+   font-weight: 400;
+}

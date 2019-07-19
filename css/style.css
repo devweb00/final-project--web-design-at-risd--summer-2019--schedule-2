@@ -1,0 +1,199 @@
+* {
+   margin: 0;
+   padding: 0;
+   line-height: 1.5;
+}
+
+.banner {
+   height: 95vh;
+   width: 100vw;
+   text-align: left;
+   position: relative;
+   background-image: url('../img/growth5.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 20% 20%;
+   background-size: cover;
+}
+
+.banner-container {
+   font-family: Montserrat, sans-serif;
+   background-color: transparent;
+   width: 70%;
+   text-align: left;
+   font-size: 80px;
+   font-weight: 800;
+   line-height: 1.2;
+   margin: 210px 10px auto 100px;
+   padding: 200px 0 10px;
+   color: white;
+}
+
+div {
+   font-family: Montserrat, sans-serif;
+   background-color: transparent;
+   width: 80%;
+   font-size: 40px;
+   color: white;
+   text-align: left;
+   margin: 300px auro 10px;
+   padding: 10px 0;
+}
+
+#insights img {
+   padding: 12px;
+   margin: 0 32px 0 30px;
+   width: 100px;
+   float: right;
+}
+
+#ideas img {
+   /* padding: 12px; */
+   margin: 0 32px 0 30px;
+   width: 100px;
+   float: right;
+}
+
+#impact img {
+   padding: 12px;
+   margin: 0 32px 0 30px;
+   width: 100px;
+   float: right;
+}
+
+.firstbanner {
+   height: 40vh;
+   width: 100vw;
+   position: relative;
+   background-color: #d96b43;
+}
+
+.secondbanner {
+   height: 35vh;
+   width: 100vw;
+   position: relative;
+   background-color: #99bfa3;
+}
+
+.thirdbanner {
+   height: 35vh;
+   width: 100vw;
+   position: relative;
+   background-color: #6387f2;
+}
+
+.fourthbanner {
+   height: 20vh;
+   width: 100vw;
+   position: relative;
+   background-color: black;
+}
+
+.content-container {
+   background-color: transparent;
+   width: 80%;
+   margin: auto;
+   padding: 70px 0;
+   color: white;
+}
+
+body {
+   background-color: transparent;
+   font-family: Poppins, sans-serif;
+}
+
+h1 {
+   font-family: Poppins, sans-serif;
+   font-size: 80px;
+   line-height: 130px;
+   text-align: left;
+   margin-top: 30px;
+   margin-bottom: 2px;
+   color: white;
+  }
+
+h2 {
+   font-family: Poppins, sans-serif;
+   color: black;
+   text-align: center;
+   margin-top: 50%;
+   margin-bottom: 2px;
+   font-size: 20px;
+   line-height: 40px;
+}
+
+h3 {
+   color: white;
+   font-family: Poppins, sans-serif;
+   font-size: 73px;
+   font-weight: bold;
+   margin-right: 5px;
+   margin-top: 5px;
+   margin-bottom: 20px;
+   display: inline-block;
+   position: relative;
+}
+
+p {
+   color: #08070C;
+   font-family: 'Coming soon', sans-serif;
+   font-size: 20px;
+   position: absolute;
+   margin-left: 18%;
+   margin-right: 10%;
+   padding-top: 10px;
+   text-align: left;
+}
+
+p > span {
+   color: white;
+}
+
+#insights {
+   padding: 0 32px;
+   border-radius: 4px;
+   text-align: left;
+}
+
+#ideas {
+   padding: 0 32px;
+   border-radius: 4px;
+   text-align: left;
+}
+
+#impact {
+   padding: 0 32px;
+   border-radius: 4px;
+   text-align: left;
+}
+
+#action {
+   padding: 0 32px;
+   border-radius: 4px;
+   text-align: left;
+}
+
+/* p {
+   font-family: 'Assistant', sans-serif;
+   font-size: 16px;
+   line-height: 2em;
+} */
+
+footer {
+   /* padding-top: 6em; */
+   background-color: red;
+   margin: 30px auto;
+}
+
+.footerText {
+   text-align: center;
+   font-size: 18px;
+   color: orange;
+}
+
+.BottomButton {
+   text-align: center;
+   font-size: 48px;
+   line-height: 2;
+   color: green;
+}
