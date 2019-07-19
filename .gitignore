@@ -3,6 +3,7 @@
 !.gitignore
 !README.md
 !*.html
+!Kombi-Regular.woff
 
 !audio/*.mp3
 !video/*.mp4
