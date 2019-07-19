@@ -1,28 +1,22 @@
 
-h5 {
-  font-size: 100px;
 
-}
 
-h6 {
-  font-size: 35px;
-  margin-left: 5px;
-  margin-top: -16px;
 
-}
+
 
 .workitems img:nth-child(1) {
-   width: 450px;
+   width: 470px;
    float: left;
    margin-top: 61px;
-   margin-left: 15%;
-   border-color: black:
+   margin-left: 13%;
    border-width: 10px;
+   border-color: black:
    border-style: solid;
+
 }
 
 .workitems img:nth-child(2) {
-   width: 450px;
+   width: 470px;
    float: right;
     margin-top: 5%;
    margin-right: 13%;
@@ -42,4 +36,16 @@ hr {
     overflow: hidden;
     border-style: solid;
     border-width: 3px;
+}
+
+h5 {
+  font-size: 100px;
+
+}
+
+h6 {
+  font-size: 35px;
+  margin-left: 5px;
+  margin-top: -16px;
+
 }
