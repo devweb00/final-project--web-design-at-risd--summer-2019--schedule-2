@@ -1,0 +1,79 @@
+
+#contact {
+   float: left;
+  font-family:'Roboto Condensed', sans-serif;
+   font-size: 30px;
+   position: fixed;
+   text-align: center;
+     left: 2vw;
+   padding-right: 20px;
+   padding-left: 43vh;
+   position: absolute;
+   transform: rotate(90deg) translateX(-44px);
+   transform-origin: bottom left;
+   z-index: 2
+}
+
+#resume {
+   float: right;
+   font-family:'Roboto Condensed', sans-serif;
+   font-size: 30px;
+   position: fixed;
+   text-align: center;
+   padding-left: 20px;
+   padding-right: 43vh;
+   position: absolute;
+
+   transform: rotate(-90deg) translateX(56px);
+   transform-origin: bottom right;
+   right: 2vw;
+   z-index: 2
+}
+
+/*#portfolio {
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 40px;
+   text-align: center;
+   position: fixed;
+   bottom: 20px;
+   margin: auto;
+   width: 100vw;
+}*/
+
+#about {
+   font-family:'Roboto Condensed', sans-serif;
+   font-size: 30px;
+   text-align: center;
+   position: fixed;
+   height: 20px;
+   top: 2vw;
+   right: 0;
+   bottom: 0;
+   left: 0;
+    position: absolute;
+   z-index: 2;
+}
+
+/*body {
+   text-align: center;
+   margin: 10px 20px;
+   background-color: transparent;
+}*/
+
+#hero {
+   margin: auto;
+   padding-top: 160px;
+
+}
+
+li {
+   border-bottom: 2px;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+   text-decoration: none;
+   color: #BF4EA1;
+}
