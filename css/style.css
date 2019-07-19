@@ -1,0 +1,36 @@
+body {
+   background-color: #999;
+   background-image: url('../img/hahahaha.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 60% 50%;
+   background-size: cover;
+}
+
+.list {
+   z-index: 2;
+   position: sticky;
+   top: 0;
+   left: 0;
+}
+
+.Bryan {
+   text-align: center;
+   font-size: 2vw;
+   line-height: 5vw;
+   color: #fff;
+   background-color: #000;
+   height: 12vh;
+   width: 100vw;
+}
+
+a {
+   position: relative;
+   top: 2vh;
+   color: white;
+   list-style-type: none;
+}
+
+header {
+   font-family: sans-serif;
+}
