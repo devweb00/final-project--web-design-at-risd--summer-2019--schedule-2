@@ -11,7 +11,7 @@ nav {
    width: 960px;
    background-color: #000;
    border: 1px solid #eee;
-   border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
 }
 
 nav > ul {
@@ -21,6 +21,8 @@ nav > ul {
 }
 
 nav > ul > li {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
    text-align: center;
    width: 140px;
    line-height: 16px;
@@ -33,4 +35,22 @@ a:link,
 a:active {
    text-decoration: none;
    color: #eee;
+}
+
+main {
+   width: 960px;
+}
+
+#portfolio {
+   margin: 16px 0;
+   border: 1px solid #eee;
+   border-bottom-right-radius: 8px;
+   height: 146px;
+   line-height: 1.2;
+   justify-content: space-around;
+   width: 300px;
+}
+
+img {
+   width: 300px;
 }
