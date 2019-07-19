@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Design — Grady Ng</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link href="css/portfolio.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <header>
+            <h1>WEB DESIGN</h1>
+        </header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="./index.html">About</a></li>
+                <li><a href="./graphic.html">Graphics</a></li>
+                <li><a href="./art.html">Art</a></li>
+                <li><a href="./web.html">Web</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <nav class="sub-nav">
+        <ul>
+            <li data-bg-col="#ec811e" class="active"><a href="#dish-it">Dish It!</a></li>
+            <li data-bg-col="#565656"><a href="#portfolio-website">Portfolio Website</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section class="portfolio-item" id="dish-it">
+            <h2>Dish It!</h2>
+            <p><i><a href="https://dishit.fun">Dish It!</a></i> was a dining hall feedback app that was born in my college suite during a particularly tumultuous period in the Yale-NUS dining experience. This was my first time doing front-end development
+                on a web app (from scratch, not to mention), so you can imagine I was very proud of it when it successfully launched.</p>
+            <p><i>Dish It!</i> operated for a couple semesters, and our users preferred its simple, intuitive and accessible design over the other feedback platforms available.</p>
+            <div class="portfolio-image-container">
+                <a href="./img/dishit.png" data-fancybox="elm-college"><img src="./img/dishit.png" alt="" /></a>
+                <div class="portfolio-image-caption">
+                    <h3>The Dish It! Logo</h3>
+                    The logo was designed to be the most elaborate visual of the app — that's how insistent we were on keeping things simple. It was versatile enough that I was able to create special logos on occasion (a la Google), which brought much life into the app.
+                </div>
+            </div>
+            <div class="portfolio-image-container">
+                <a><video controls class="dishit-demo">
+                <source src="./img/demo.mp4" type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+            </video></a>
+
+                <div class="portfolio-image-caption">
+                    <h3>Demo</h3>
+                    At its height, Dish It! had nearly 200 daily votes. This video is a demo of all the features available at the time, including dietary preferences and filters, leaderboards and even theme settings.
+                </div>
+            </div>
+                    </section>
+        <section class="portfolio-item" id="portfolio-website">
+            <h2>Portfolio Website</h2>
+            <p>I had a portfolio website before this one. It was terribly coded and full of hacks, so I'm glad this course taught me how to refine my process to make more elegant and efficient designs.</p>
+            <div class="portfolio-image-container">
+                <a href="https://gradyjasonng.github.io"><img src="./img/portfolio-website.png" alt="" /></a>
+                <div class="portfolio-image-caption">
+                    <h3>gradaigh</h3>
+                    I managed to apply the things I learnt here on the original website design, so feel free to <a href="https://gradyjasonng.github.io">check it out </a>!
+                </div>
+            </div>
+                    </section>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+<script src="./js/main.js"></script>
+
+
+</html>

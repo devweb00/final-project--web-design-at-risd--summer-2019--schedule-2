@@ -45,7 +45,7 @@
      --bg-col:#222;
 }
  html {
-     background: #1e385a;
+     background: #444;
      scroll-behavior: smooth;
      transition: all 0.4s;
 }
@@ -54,8 +54,8 @@
      left:0;
      bottom: 0;
      width: 100%;
-     background-color: #1e385a;
-     box-shadow: 0 -60px 60px #1e385a;
+     background-color: #444;
+     box-shadow: 0 -60px 60px #444;
      transition: all 0.4s;
      z-index: 3;
 }
@@ -100,7 +100,7 @@ nav li a{
 }
 
 nav li a:hover{
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
  main{
@@ -125,11 +125,15 @@ main a {
     color:inherit;
 }
 
+main i{
+    font-style: italic;
+}
+
 main a:hover {
     opacity: 0.8;
 }
 
- p a{
+ main a{
      text-decoration: none;
      color:var(--fg-col);
      font-weight: 700;
