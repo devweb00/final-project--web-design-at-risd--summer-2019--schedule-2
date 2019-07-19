@@ -231,12 +231,36 @@ p {
    line-height: 1.4;
 }
 
-.hero {
+.hero01 {
    border: solid 1px #eee;
    width: calc((100% - 34px) - 32px);
    height: 400px;
    margin: 0 0 32px 32px;
    background-image: url('../img/fifty-iterations.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+}
+
+.hero02 {
+   border: solid 1px #eee;
+   width: calc((100% - 34px) - 32px);
+   height: 400px;
+   margin: 0 0 32px 32px;
+   background-image: url('../img/the-guggenheim.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+}
+
+.hero04 {
+   border: solid 1px #eee;
+   width: calc((100% - 34px) - 32px);
+   height: 400px;
+   margin: 0 0 32px 32px;
+   background-image: url('../img/story-about-0-and-1.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: 50% 50%;
