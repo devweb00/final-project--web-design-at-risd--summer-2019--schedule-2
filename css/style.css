@@ -1,0 +1,280 @@
+body {
+   background: black;
+   color: #eee;
+}
+
+.container {
+   width: 100%;
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+
+.navleft {
+   width: 300px;
+   height: calc(100vh - 64px);
+   background: black;
+   position: fixed;
+   border-right: #eee solid 1px;
+   display: block;
+}
+
+.logo {
+   width: 140px;
+   height: 150px;
+   margin: -50px auto;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+   text-decoration: none;
+   color: #eee;
+}
+
+.about {
+   width: 140px;
+   height: 200px;
+   position: fixed;
+   bottom: 1px;
+   left: 85px;
+   font-family: 'Work Sans', sans-serif;
+   line-height: 1.4;
+   text-align: right;
+}
+
+.content_right {
+   width: calc(100vw - 300px);
+   height: calc(100vh - 64px);
+   float: right;
+}
+
+.bottom_black {
+   width: 100%;
+   height: 32px;
+   position: fixed;
+   bottom: 0;
+   background-color: black;
+   z-index: 1;
+}
+
+.title {
+   display: flex;
+   width: calc(100% - 64px);
+   height: 183px;
+   border: solid #eee 1px;
+   margin: 0 auto 16px;
+   border-bottom-right-radius: 16px;
+}
+
+h1 {
+   padding: 16px 32px;
+   font-family: 'Poppins', sans-serif;
+   color: #eee;
+   font-size: 72px;
+   font-weight: 600;
+   line-height: 1.2;
+}
+
+.filter {
+   display: flex;
+   color: #eee;
+   width: calc(100% - 64px);
+   height: 35px;
+   border: solid #eee 1px;
+   margin: 0 auto 16px;
+   border-top-right-radius: 16px;
+   font-family: 'Poppins', sans-serif;
+}
+
+#branding {
+   padding: 9px;
+}
+
+#poster {
+   padding: 9px;
+}
+
+#typographic {
+   padding: 9px;
+}
+
+#others {
+   padding: 9px;
+}
+
+.portfolio {
+   width: 100%;
+}
+
+.work {
+   border: solid 1px #eee;
+   width: calc((100% - 38px) / 3 - 32px);
+   height: 300px;
+   float: left;
+   margin: 0 0 32px 32px;
+}
+
+.work05 {
+   width: calc((100% - 68px) - (100% - 38px) / 3);
+   height: 300px;
+   float: left;
+   margin: 0 0 32px 32px;
+   border-top-right-radius: 16px;
+}
+
+img {
+   width: 100%;
+   height: 300px;
+}
+
+.work:hover {
+   filter: none;
+}
+
+@media only screen and (max-width: 1024px) {
+   .work {
+      width: calc((100% - 36px) / 2 - 32px);
+   }
+}
+
+@media (min-width: 860px) and (max-width: 1024px) {
+   .work {
+      width: calc((100% - 36px) / 2 - 32px);
+   }
+
+   h1 {
+      font-size: 60px;
+   }
+}
+
+@media (min-width: 375px) and (max-width: 860px) {
+   .work {
+      width: calc((100% - 34px) - 32px);
+   }
+
+   .navleft {
+      display: none;
+   }
+
+   .content_right {
+      width: 100vw;
+   }
+
+   h1 {
+      font-size: 48px;
+   }
+}
+
+.work01 {
+   background-image: url('../img/fifty-iterations.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
+}
+
+.work02 {
+   background-image: url('../img/the-guggenheim0.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-bottom-left-radius: 16px;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
+}
+
+.work03 {
+   background-image: url('../img/small-publication.gif');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-bottom-right-radius: 16px;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
+}
+
+.work04 {
+   background-image: url('../img/story-about-0-and-1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-bottom-left-radius: 16px;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
+}
+
+.work05 {
+   background-image: url('../img/info-3-trip.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
+}
+
+h2 {
+   padding: 16px 32px;
+   font-family: 'Poppins', sans-serif;
+   color: #eee;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 1.2;
+}
+
+p {
+   padding: 16px 32px;
+   font-family: 'Work Sans', sans-serif;
+   color: #eee;
+   font-size: 16px;
+   line-height: 1.4;
+}
+
+.hero01 {
+   border: solid 1px #eee;
+   width: calc((100% - 34px) - 32px);
+   height: 400px;
+   margin: 0 0 32px 32px;
+   background-image: url('../img/fifty-iterations.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+}
+
+.hero02 {
+   border: solid 1px #eee;
+   width: calc((100% - 34px) - 32px);
+   height: 400px;
+   margin: 0 0 32px 32px;
+   background-image: url('../img/the-guggenheim.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+}
+
+.hero04 {
+   border: solid 1px #eee;
+   width: calc((100% - 34px) - 32px);
+   height: 400px;
+   margin: 0 0 32px 32px;
+   background-image: url('../img/story-about-0-and-1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+}
+
+iframe {
+   border: solid 1px #eee;
+   width: calc((100% - 34px) - 32px);
+   height: 500px;
+   margin: 0 0 32px 32px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+}
