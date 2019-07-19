@@ -1,0 +1,23 @@
+nav {
+   font-family: serif;
+   background-color: black;
+   width: 100vw;
+   height: 6vh;
+   border-bottom: 2vh solid gray;
+   margin-bottom: 2vh, red;
+}
+
+nav > ul {
+   margin: 0 auto;
+   width: 45vw;
+}
+
+nav > ul > li {
+   text-align: center;
+   width: 15vw;
+   height: 5.9vh;
+   display: inline-block;
+   background-color: black;
+   list-style-type: none;
+   font-family: sans-serif;
+}
