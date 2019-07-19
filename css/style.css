@@ -6,8 +6,40 @@
 }
 
 
+.banner1{
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+   background-color: pink;
+}
 
 
+.banner-container1 {
+   background-color: transparent;
+   width: 80%;
+   margin: auto;
+   padding: 70px 0;
+}
+
+.banner-container1 img{
+   width: 450px;
+   margin: 0 auto;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -250px;
+   margin-top:-250px;
+   }
+
+.banner-container1 p {
+   font-size: 20px;
+   width: 64vh;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -250px;
+   margin-top: 154px;
+ }
 
 
 .banner {
@@ -59,11 +91,11 @@ h2 {
 
  .vertical {
             border-left: 6px solid black;
-            border-width: 5px;
-            margin-top: 29px;
+            border-width: 13.6px;
+            margin-top: -25px;
             height: 300%;
             position:absolute;
-            left: 49.15%;
+            left: 49.44%;
         }
 
 /*nav {
@@ -181,7 +213,7 @@ margin: auto;
    width: 400px;
    float: left;
    margin-top: 63px;
-   margin-left: 16%;
+   margin-left: 15%;
 }
 
 .workitems img:nth-child(2) {
@@ -208,7 +240,6 @@ margin: auto;
 
 .leftside {
    background: pink;
-
 }
 
 .rightside {
