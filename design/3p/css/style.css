@@ -1,0 +1,79 @@
+
+.list {
+   z-index: 2;
+   position: sticky;
+   top: 0;
+   left: 0;
+}
+
+.Bryan {
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 2vw;
+   line-height: 5vw;
+   color: #fff;
+   background-color: #000;
+   height: 12vh;
+}
+
+li > a {
+   position: relative;
+   top: 2vh;
+   color: white;
+   list-style-type: none;
+}
+
+main {
+   margin: auto;
+   width: 80vw;
+   display: flex;
+   justify-content: space-around;
+   align-content: flex-start;
+}
+
+section {
+   width: 20vw;
+   padding: 2vw;
+}
+
+figure {
+   position: relative;
+   top: 2.5vw;
+   border: 1px solid black;
+}
+
+figure > figcaption {
+   position: absolute;
+   bottom: -40px;
+   background-color: rgba(255, 255, 255, .7);
+   width: 17vw;
+   height: 40px;
+   text-align: center;
+   font-weight: 200;
+   font-size: 12px;
+   line-height: 40px;
+   opacity: 0;
+   transition: 350ms;
+}
+
+figure:hover > figcaption {
+   opacity: 1;
+   bottom: 0;
+}
+
+figure > img {
+   color: #900;
+   width: 100%;
+}
+
+figcaption > a {
+   text-decoration: none;
+   position: relative;
+   top: 0;
+   color: black;
+   list-style-type: none;
+}
+
+.img {
+   text-align: center;
+}
