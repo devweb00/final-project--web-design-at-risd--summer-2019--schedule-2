@@ -24,15 +24,15 @@
    font-size: 80px;
    font-weight: 900;
    line-height: 1.2;
-   margin: auto;
-   padding: 400px 0 30px;
+   margin: 120px 10px auto 160px;
+   padding: 200px 0 10px;
    color: black;
 }
 
 div {
    font-family: 'Coming Soon', sans-serif;
-   /*background-color: transparent;
-   width: 80%; */
+   background-color: transparent;
+   width: 80%;
    font-size: 20px;
    color: white;
    text-align: left;
@@ -42,51 +42,58 @@ div {
 
 #insights img {
    padding: 12px;
-   /* margin: 16px 32px 0 30px; */
+   margin: 0 32px 0 30px;
    width: 100px;
    float: right;
 }
 
 #ideas img {
-   padding: 12px;
-   /* margin: 16px 32px 0 30px; */
+   /* padding: 12px; */
+   margin: 0 32px 0 30px;
    width: 100px;
    float: right;
 }
 
 #impact img {
    padding: 12px;
-   /* margin: 16px 32px 0 30px; */
+   margin: 0 32px 0 30px;
    width: 100px;
    float: right;
 }
 
 .firstbanner {
-   height: 50vh;
+   height: 35vh;
    width: 100vw;
    position: relative;
    background-color: #d96b43;
 }
 
 .secondbanner {
-   height: 50vh;
+   height: 35vh;
    width: 100vw;
    position: relative;
    background-color: #99bfa3;
 }
 
 .thirdbanner {
-   height: 50vh;
+   height: 35vh;
    width: 100vw;
    position: relative;
-   background-color: #8EBABF;
+   background-color: #6387f2;
+}
+
+.fourthbanner {
+   height: 20vh;
+   width: 100vw;
+   position: relative;
+   background-color: black;
 }
 
 .content-container {
    background-color: transparent;
    width: 80%;
    margin: auto;
-   padding: 65px 0;
+   padding: 35px 0;
    color: white;
 }
 
@@ -116,12 +123,13 @@ h2 {
 }
 
 h3 {
-   color: #6387f2;
-   font-family: 'Poppins', sans-serif;
+   color: white;
+   font-family: Poppins, sans-serif;
    font-size: 73px;
    font-weight: bold;
    margin-right: 5px;
    margin-top: 5px;
+   margin-bottom: 20px;
    display: inline-block;
    position: relative;
 }
@@ -131,7 +139,8 @@ p {
    font-size: 17px;
    position: absolute;
    margin-left: 18%;
-   margin-right: 20%;
+   margin-right: 10%;
+   padding-top: 10px;
    text-align: left;
 }
 
@@ -152,6 +161,12 @@ p > span {
 }
 
 #impact {
+   padding: 0 32px;
+   border-radius: 4px;
+   text-align: left;
+}
+
+#action {
    padding: 0 32px;
    border-radius: 4px;
    text-align: left;
