@@ -9,7 +9,7 @@
    width: 100vw;
    text-align: left;
    position: relative;
-   background-image: url('../img/growth4.jpg');
+   background-image: url('../img/growth5.jpg');
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: 20% 20%;
@@ -17,23 +17,23 @@
 }
 
 .banner-container {
-   font-family: Poppins, sans-serif;
+   font-family: Montserrat, sans-serif;
    background-color: transparent;
    width: 70%;
    text-align: left;
    font-size: 80px;
-   font-weight: 900;
+   font-weight: 800;
    line-height: 1.2;
-   margin: 120px 10px auto 160px;
+   margin: 210px 10px auto 100px;
    padding: 200px 0 10px;
-   color: black;
+   color: white;
 }
 
 div {
-   font-family: 'Coming Soon', sans-serif;
+   font-family: Montserrat, sans-serif;
    background-color: transparent;
    width: 80%;
-   font-size: 20px;
+   font-size: 40px;
    color: white;
    text-align: left;
    margin: 300px auro 10px;
@@ -62,7 +62,7 @@ div {
 }
 
 .firstbanner {
-   height: 35vh;
+   height: 40vh;
    width: 100vw;
    position: relative;
    background-color: #d96b43;
@@ -93,7 +93,7 @@ div {
    background-color: transparent;
    width: 80%;
    margin: auto;
-   padding: 35px 0;
+   padding: 70px 0;
    color: white;
 }
 
@@ -136,7 +136,8 @@ h3 {
 
 p {
    color: #08070C;
-   font-size: 17px;
+   font-family: 'Coming soon', sans-serif;
+   font-size: 20px;
    position: absolute;
    margin-left: 18%;
    margin-right: 10%;
@@ -170,4 +171,29 @@ p > span {
    padding: 0 32px;
    border-radius: 4px;
    text-align: left;
+}
+
+/* p {
+   font-family: 'Assistant', sans-serif;
+   font-size: 16px;
+   line-height: 2em;
+} */
+
+footer {
+   /* padding-top: 6em; */
+   background-color: red;
+   margin: 30px auto;
+}
+
+.footerText {
+   text-align: center;
+   font-size: 18px;
+   color: orange;
+}
+
+.BottomButton {
+   text-align: center;
+   font-size: 48px;
+   line-height: 2;
+   color: green;
 }
