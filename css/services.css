@@ -18,6 +18,12 @@ body {
    margin: auto;
 }
 
+/* #what-im-good-at {
+   display: flex;
+   width: 1200px;
+   margin: auto;
+} */
+
 .item {
    color: red;
    border: 10px solid white;
@@ -44,21 +50,22 @@ body {
    font-family: Poppins, sans-serif;
    text-align: center;
    color: black;
+   padding-top: 10px;
 }
 
 .item--image-container {
    position: relative;
 }
 
-h2 {
-
-
-}
 ul > li {
    font-family: Poppins, sans-serif;
    width: 80%;
-   margin: auto;
+   margin: 30px auto;
    text-align: center;
    list-style-type: none;
    color: black;
+}
+
+span.bold {
+   font-weight: 400;
 }
