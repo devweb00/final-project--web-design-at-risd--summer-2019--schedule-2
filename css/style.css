@@ -1,6 +1,6 @@
 body {
    background: black;
-   color:  #eee;
+   color: #eee;
 }
 
 .container {
@@ -83,14 +83,23 @@ h1 {
    border: solid #eee 1px;
    margin: 0 auto 16px;
    border-top-right-radius: 16px;
+   font-family: 'Poppins', sans-serif;
 }
 
 #branding {
-   padding: 8px;
+   padding: 9px;
 }
 
 #poster {
-   padding: 8px;
+   padding: 9px;
+}
+
+#typographic {
+   padding: 9px;
+}
+
+#others {
+   padding: 9px;
 }
 
 .portfolio {
@@ -105,9 +114,12 @@ h1 {
    margin: 0 0 32px 32px;
 }
 
-.work04 {
-   width: 800px;
-   height: 50px;
+.work05 {
+   width: calc((100% - 68px) - (100% - 38px) / 3);
+   height: 300px;
+   float: left;
+   margin: 0 0 32px 32px;
+   border-top-right-radius: 16px;
 }
 
 img {
@@ -116,7 +128,7 @@ img {
 }
 
 .work:hover {
-   background: #eee;
+   filter: none;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -151,4 +163,53 @@ img {
    h1 {
       font-size: 60px;
    }
+}
+
+.work01 {
+   background-image: url('../img/fifty-iterations.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
+}
+
+.work02 {
+   background-image: url('../img/the-guggenheim0.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-bottom-left-radius: 16px;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
+}
+
+.work03 {
+   background-image: url('../img/small-publication.gif');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-bottom-right-radius: 16px;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
+}
+
+.work04 {
+   background-image: url('../img/story-about-0-and-1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-bottom-left-radius: 16px;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
+}
+
+.work05 {
+   background-image: url('../img/info-3-trip.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   filter: grayscale(1) contrast(.5);
+   transition: .2s;
 }
