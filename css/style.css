@@ -213,3 +213,43 @@ img {
    filter: grayscale(1) contrast(.5);
    transition: .2s;
 }
+
+h2 {
+   padding: 16px 32px;
+   font-family: 'Poppins', sans-serif;
+   color: #eee;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 1.2;
+}
+
+p {
+   padding: 16px 32px;
+   font-family: 'Work Sans', sans-serif;
+   color: #eee;
+   font-size: 16px;
+   line-height: 1.4;
+}
+
+.hero {
+   border: solid 1px #eee;
+   width: calc((100% - 34px) - 32px);
+   height: 400px;
+   margin: 0 0 32px 32px;
+   background-image: url('../img/fifty-iterations.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+}
+
+iframe {
+   border: solid 1px #eee;
+   width: calc((100% - 34px) - 32px);
+   height: 500px;
+   margin: 0 0 32px 32px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   border-top-left-radius: 16px;
+}
